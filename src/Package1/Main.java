@@ -20,7 +20,7 @@ public class Main {
         try {
             exampleList2.add(12);
         } catch (UnsupportedOperationException e) {
-            System.out.println("\nПопытка изменить неизменяемый список\n" + e);
+            System.out.println("\nПопытка изменить неизменяемый список! - " + e);
         }
 
         System.out.println("\nПоля после изменения исходного списка в Main.");
