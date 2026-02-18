@@ -4,7 +4,7 @@ import java.util.List;
 
 public final class ImmutableClass {
     private final int exampleIntegerField;
-    private final List<Integer> exampleListField; // Поле содержит изменяемый класс List
+    private final List<Integer> exampleListField; // Поле хранит ссылку на объект изменяемого класса
 
     public ImmutableClass(int exampleIntegerField, List<Integer> exampleListField) {
         this.exampleIntegerField = exampleIntegerField;
